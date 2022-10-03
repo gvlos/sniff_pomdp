@@ -53,7 +53,7 @@ inside brackets denote the possibility of launching multiple experiments at once
 - `Infotaxis=0` flag to activate infotaxis (do not modify)
 - `Seed_test=(1 2 3 4 5)` seed at test time. Multiple seeds correspond to a number of repetition of the experiments (e.g., 3 seeds = 3 experiments)
 - `Seed_train=(6 7 8 9 10)` seed at training time. The number of seeds at training time must be equal to the number of seeds at test time (e.g., 3 seeds at test time require 3 seeds at training time)
-- `Gamma=(0.99)` parameter $\Gamma$ in the Bellman equation 
+- `Gamma=(0.99)` parameter $\gamma$ in the Bellman equation 
 - `Numstates_per_length=(20)` number of cells $\lambda$ per unit length of the environment
 - `Pomdpsolve_numiter=(320)` number of iterations of the POMDP solver algorithm
 - `Pomdpsolve_numpoints=(1)` number of belief points considered at training time. Valid only with `collectmethod = 1` (FSVI Collect) or `collectmethod = 3` (PBVI).
