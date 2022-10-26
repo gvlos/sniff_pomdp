@@ -1,10 +1,18 @@
+# Content
 
-# Prerequisites
+This repository contains:
+
+- A report of all the activities conducted inside the MaLGa PiMLB unit --> PiMLB_project_report.pdf
+- A folder "cuda_kernels" containing the implementations of the single cuda kernels and a document explaining the computations of the kernels.
+
+# Instructions to run the CPU code (not included in this repository)
+
+## Prerequisites
 
 - Install the [GSL library](https://www.gnu.org/software/gsl/)
 - Install [zlib](https://zlib.net/) (only for execution on local machine[*](https://stackoverflow.com/questions/10440113/simple-way-to-unzip-a-zip-file-using-zlib))
 
-# Compilation
+## Compilation
 
 First, in Makefile, set the INC and LIB variables to the paths where you have GSL installed (the folder "include"
 and "lib" of the GSL absolute path, respectively)
@@ -36,7 +44,7 @@ Then, run
 make
 ```
 
-# Run
+## Run
 
 ### Local machine
 
@@ -134,7 +142,7 @@ In the path specified as `OUT_DIR` the following files will be created:
 - `stderr_eval.txt` is the standard error
 
 
-# Python utils
+## Python utils
 
 - `plot_st_points.py` can be used to plot the starting points used at training time with the FSVI algorithm
 - `plot_statistics_rev.py` can be used to plot statistics of the experiments (e.g., additional time to target, JS score, cast length)
