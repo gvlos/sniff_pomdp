@@ -115,7 +115,7 @@ Open `launch_spos_cluster.sh` and edit the parameters as described in the analog
 ### GPU Cluster
 Here instruction on how to run on the PiMLB GPU cluster
 
-# Output
+## Output
 
 In the following, `{xstart}, {ystart}` denote the agent starting position, `{xmin_test}, {xmax_test}, {ymin_test}, {ymax_test}` denote the bounding box of the prior at test time.
 
