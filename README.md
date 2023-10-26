@@ -1,3 +1,6 @@
+# Report
+For a description of the problem check the report PIMLB_project_report.pdf of this repo.
+
 # Content
 
 This repository contains:
